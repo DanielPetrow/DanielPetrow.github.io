@@ -1,0 +1,43 @@
+body {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(106, 90, 205);
+    margin: 0;
+}
+
+p {
+    color: blueviolet;
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 60px;
+}
+
+div {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 5px 50px 20px 50px;
+    box-shadow: 0 0 12px 5px rgba(0, 0, 0, 1);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(29, 214, 199);
+    display: inline-block;
+    margin: 20px 0;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+a:hover {
+    border-bottom-color: rgb(29, 214, 199);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
