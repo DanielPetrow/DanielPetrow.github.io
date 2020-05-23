@@ -22,6 +22,7 @@ main {
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 2);
 }
 
 .first p {
@@ -72,6 +73,10 @@ main {
     align-items: center;
 }
 
+.third {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 2);
+}
+
 .gallery-container {
     width: 60%;
     max-width: 1000px;
@@ -88,11 +93,12 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
 }
 
 .img1 {
     width: 55%;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 2);
+    transition: all 0.5s ease;
 }
 
 .wrapper {
@@ -101,6 +107,28 @@ img {
 
 .img2 {
     margin-bottom: 20px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 2);
+    transition: all 0.5s ease;
+}
+
+.img3 {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 2);
+    transition: all 0.5s ease;
+}
+
+.img1:hover {
+    transform: rotate(-1deg) scale(1.03);
+    box-shadow: 0 0 10px 2px rgba(255, 215, 0, 4);
+}
+
+.img2:hover {
+    transform: rotate(1deg) scale(1.03);
+    box-shadow: 0 0 10px 2px rgba(255, 215, 0, 4);
+}
+
+.img3:hover {
+    transform: rotate(1deg) scale(1.03);
+    box-shadow: 0 0 10px 2px rgba(255, 215, 0, 4);
 }
 
 .gallery-text {
@@ -139,11 +167,17 @@ img {
 }
 
 .last-header {
+    text-decoration: none;
     color: white;
     font-size: 20px;
     padding: 10px 20px;
     border: 2px outset white;
     margin-bottom: 40px;
+    transition: all 0.5s ease;
+}
+
+.last-header:hover {
+    font-size: 21px;
 }
 
 .last-text {
