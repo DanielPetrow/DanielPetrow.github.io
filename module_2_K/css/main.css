@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: '9119';
+    src: url(../fonts/9119.ttf);
+}
+
+body {
+    background-color: rgb(192, 192, 192);
+    font-family: '9119';
+}
+
+main {
+    width: 70%;
+    padding: 10px 50px 10px 50px;
+    margin: auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 2);
+}
+
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    background-color: orange;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 2);
+}
+
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(255, 215, 0, 4);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    border: 3px outset rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+h1:hover {
+    transform: scale(1.07);
+}
+
+.photo1 {
+    background-image: url(../img/1.jpg);
+}
+
+.photo1:hover {
+    transform: rotate(-3deg) scale(1.07);
+}
+
+.photo2 {
+    background-image: url(../img/2.jpg);
+}
+
+.photo3 {
+    background-image: url(../img/3.jpg);
+}
+
+.photo3:hover {
+    transform: rotate(-3deg) scale(1.07);
+}
+
+.photo4 {
+    background-image: url(../img/4.jpg);
+}
+
+.photo5 {
+    background-image: url(../img/5.jpg);
+}
+
+.photo5:hover {
+    transform: rotate(-3deg) scale(1.07);
+}
+
+.photo6 {
+    background-image: url(../img/6.jpg);
+}
+
+.photo7 {
+    background-image: url(../img/7.jpg);
+}
+
+.photo7:hover {
+    transform: rotate(-3deg) scale(1.07);
+}
+
+.photo8 {
+    background-image: url(../img/8.jpg);
+}
+
+.photo9 {
+    background-image: url(../img/9.jpg);
+}
+
+.photo9:hover {
+    transform: rotate(-3deg) scale(1.07);
+}
+
+.photo10 {
+    background-image: url(../img/10.jpg);
+}
+
+.photo11 {
+    background-image: url(../img/11.jpg);
+}
+
+.photo11:hover {
+    transform: rotate(-3deg) scale(1.07);
+}
+
+.photo12 {
+    background-image: url(../img/12.jpg);
+}
